@@ -138,7 +138,7 @@ document.getElementById('multiStepForm').addEventListener('submit', async functi
         submitBtn.textContent = 'Sending...';
         
         // Send to backend
-        const response = await fetch('http://127.0.0.1:5000/submit-form', {
+        const response = await fetch('http://13.60.211.85:4000/submit-form', {
             method: 'POST',
             body: formData
         });
