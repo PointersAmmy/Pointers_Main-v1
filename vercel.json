@@ -1,0 +1,40 @@
+{
+  "rewrites": [
+    {
+      "source": "/claim",
+      "destination": "/claim.html"
+    },
+    {
+      "source": "/contact",
+      "destination": "/contact.html"
+    },
+    {
+      "source": "/index",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/about",
+      "destination": "/about.html"
+    },
+    {
+      "source": "/service",
+      "destination": "/service.html"
+    },
+    {
+      "source": "/appointment",
+      "destination": "/appointment.html"
+    },
+    {
+      "source": "/team1",
+      "destination": "/team1.html"
+    },
+    {
+      "source": "/team2",
+      "destination": "/team2.html"
+    },
+    {
+      "source": "/Company",
+      "destination": "/Company.html"
+    }
+  ]
+}

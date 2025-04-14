@@ -1,0 +1,10 @@
+<script>
+    var path = window.location.pathname;
+    // If the path ends with a '/', append 'index.html' to it (for root)
+    if (path.endsWith('/')) {
+        path += 'index.html';
+    } else {
+        path += '.html';  // Add .html extension to other pages
+    }
+    window.location.replace(path);
+</script>
