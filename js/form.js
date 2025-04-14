@@ -138,7 +138,7 @@ document.getElementById('multiStepForm').addEventListener('submit', async functi
         submitBtn.textContent = 'Sending...';
         
         // Send to backend
-        const response = await fetch('https://13.60.211.85:4000/submit-form', {
+        const response = await fetch('https://api-pib.pointersinsurancebrokers.com/submit-form', {
             method: 'POST',
             body: formData
         });
